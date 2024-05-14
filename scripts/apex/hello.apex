@@ -8,3 +8,14 @@
 string tempvar = 'Enter_your_name_here';
 System.debug('Hello World!');
 System.debug('My name is ' + tempvar);
+
+List<Integer> numbers = new List<Integer>{-1, 2, -3, 4, -5, 6}; //DO NOT CHANGE
+        Integer sum = 0;
+        for (Integer element : numbers) {
+            if (element >0) {
+                sum = sum + element;
+                System.debug('inside if sum: ' + sum + ' element " + element');
+            }
+        }
+        System.debug('final result: ' + sum);
+    
